@@ -141,16 +141,20 @@
                                 </stackView>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m0y-kx-wLH">
                                     <rect key="frame" x="281" y="500.33333333333337" width="96" height="40"/>
+                                    <color key="backgroundColor" red="0.86274509799999999" green="0.0039215686269999999" blue="0.1450980392" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="width" constant="96" id="NXY-Ae-841"/>
                                         <constraint firstAttribute="height" constant="40" id="iSU-sW-YTh"/>
                                     </constraints>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                                     <color key="tintColor" red="0.86274509803921573" green="0.0039215686274509803" blue="0.14509803921568626" alpha="0.84705882352941175" colorSpace="calibratedRGB"/>
-                                    <state key="normal" title="Button"/>
-                                    <buttonConfiguration key="configuration" style="filled" title="Clear Text">
-                                        <fontDescription key="titleFontDescription" type="boldSystem" pointSize="14"/>
-                                        <color key="baseBackgroundColor" red="0.86274509799999999" green="0.0039215686269999999" blue="0.1450980392" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
-                                    </buttonConfiguration>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal" title="Clear Text"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                            <integer key="value" value="12"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
                                     <connections>
                                         <action selector="didTapClearText:" destination="-1" eventType="touchUpInside" id="WIh-9b-zA7"/>
                                     </connections>
@@ -176,16 +180,20 @@
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s52-s2-qfB">
                                     <rect key="frame" x="16" y="500.33333333333337" width="96" height="40"/>
+                                    <color key="backgroundColor" red="0.0" green="0.66274509803921566" blue="0.4392156862745098" alpha="0.84705882352941175" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="width" constant="96" id="55S-Sb-dqp"/>
                                         <constraint firstAttribute="height" constant="40" id="sdo-b0-aD9"/>
                                     </constraints>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                                     <color key="tintColor" red="0.0" green="0.66274509803921566" blue="0.4392156862745098" alpha="0.84705882352941175" colorSpace="calibratedRGB"/>
-                                    <state key="normal" title="Button"/>
-                                    <buttonConfiguration key="configuration" style="filled" title="Copy Text">
-                                        <fontDescription key="titleFontDescription" type="boldSystem" pointSize="14"/>
-                                        <color key="baseBackgroundColor" red="0.0" green="0.66274509800000003" blue="0.43921568630000002" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
-                                    </buttonConfiguration>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal" title="Copy Text"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                            <integer key="value" value="12"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
                                     <connections>
                                         <action selector="didTapCopyText:" destination="-1" eventType="touchUpInside" id="tOU-ju-SeA"/>
                                     </connections>

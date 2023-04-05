@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "astwittertext",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/4bshalom/ASTwitterText",
+      "state" : {
+        "branch" : "main",
+        "revision" : "c5774c20d55fb2a3c8c293f7a5506a33058a48fa"
+      }
+    },
+    {
+      "identity" : "iqkeyboardmanager",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/hackiftekhar/IQKeyboardManager.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "0ea3febb36cfcec2afb5841fd8809a9c0fa545b3"
+      }
+    }
+  ],
+  "version" : 2
+}
